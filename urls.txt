@@ -1,0 +1,3 @@
+Github url : https://github.com/ninyhorlah/Autodeploy-fullstack-app-using-Circleci
+
+S3 public url: http://udapeople-e025863.s3-website-us-east-1.amazonaws.com/#/employees
