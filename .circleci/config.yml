@@ -37,7 +37,7 @@ jobs:
       - checkout
       - when: 
           condition: 
-            equal: [ dev, << pipeline.git.branch >> ]
+            equal: [ dev ]
       - restore_cache:
           keys: [frontend-build]
       - run: 
@@ -57,7 +57,7 @@ jobs:
       - checkout
       - when: 
           condition: 
-            equal: [ dev, << pipeline.git.branch >> ]
+            equal: [ dev ]
       - restore_cache:
           keys: [backend-build]
       - run: 
@@ -77,7 +77,7 @@ jobs:
       - checkout
       - when: 
           condition: 
-            equal: [ dev, << pipeline.git.branch >> ]
+            equal: [ dev ]
       - restore_cache:
           keys: [frontend-build]
       - run: 
@@ -94,7 +94,7 @@ jobs:
       - checkout
       - when: 
           condition: 
-            equal: [ dev, << pipeline.git.branch >> ]
+            equal: [ dev ]
       - restore_cache:
           keys: [backend-build]
       - run: 
@@ -111,7 +111,7 @@ jobs:
       - checkout
       - when: 
           condition: 
-            equal: [ dev, << pipeline.git.branch >> ] 
+            equal: [ dev ] 
       - restore_cache:
           keys: [frontend-build]
       - run: 
@@ -134,7 +134,7 @@ jobs:
       - checkout 
       - when: 
           condition: 
-            equal: [ dev, << pipeline.git.branch >> ]
+            equal: [ dev ]
       - restore_cache:
           keys: [backend-build]
       - run: 
